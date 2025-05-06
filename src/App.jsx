@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Home from './pages/Home'
+import TravelPlan from './pages/TravelPlan'
 
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <>
-
+    <TravelPlan/>
     </>
   )
 }
