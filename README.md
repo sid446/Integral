@@ -26,6 +26,7 @@ It includes multiple screens: Home, Profile, Travel Plan, and a dynamic Search f
 ---
 
 ## 📁 Project Structure
+---
 src/
 ├── assets/ # Static assets (images like tokyo.png, senso.png)
 ├── components/ # Reusable UI components
@@ -50,6 +51,7 @@ src/
 │ ├── Profile.jsx
 │ └── TravelPlan.jsx
 
+---
 
 ---
 
