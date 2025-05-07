@@ -1,4 +1,5 @@
 import React, { memo } from 'react'
+import planeImage from "../../assets/plane.png"  // ✅ FIXED import
 
 function FlightInfoCard({ flight }) {
   return (
@@ -27,7 +28,7 @@ function FlightInfoCard({ flight }) {
 
       {/* Plane Image */}
       <img
-        src="src/assets/plane.png"
+        src={planeImage}  // ✅ FIXED path
         alt="plane"
         className="
           absolute
@@ -37,7 +38,6 @@ function FlightInfoCard({ flight }) {
           w-[25rem]
           object-contain
           md:w-[20rem] lg:w-[25rem]
-          
           scale-x-[-1]
         "
       />
