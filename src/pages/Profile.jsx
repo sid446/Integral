@@ -12,8 +12,8 @@ export default function Profile() {
   
   // Mock data for profile
   const [profile, setProfile] = useState({
-    name: 'Alex Johnson',
-    username: '@alexjohnson',
+    name: 'Chhavi Sharma',
+    username: '@chhavi_sharma',
     bio: 'Travel enthusiast. Coffee addict. Always looking for new places to explore!',
     location: 'San Francisco, CA',
     joinedDate: 'January 2023',
