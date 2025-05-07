@@ -29,7 +29,7 @@ export default function BottomNav({ activeTab, setActiveTab }) {
         { key: 'search', Icon: FaSearch },
         { key: 'plus', Icon: FaPlus },
         { key: 'heart', Icon: FiHeart },
-        { key: 'profile', Icon: FiUser },
+        { key: 'user', Icon: FiUser },
       ].map(({ key, Icon }) => (
         <div
           key={key}

@@ -8,7 +8,7 @@ export default function Profile() {
   const { theme ,toggleTheme} = useTheme();
   const isDark = theme === 'dark';
   const [activeSection, setActiveSection] = useState('saved');
-    const [activeTab, setActiveTab] = useState('profile');
+    const [activeTab, setActiveTab] = useState('user');
   
   // Mock data for profile
   const [profile, setProfile] = useState({
