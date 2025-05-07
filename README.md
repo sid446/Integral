@@ -27,29 +27,31 @@ It includes multiple screens: Home, Profile, Travel Plan, and a dynamic Search f
 
 ## 📁 Project Structure
 ---
-src/
-├── assets/ # Static assets (images like tokyo.png, senso.png)
-├── components/ # Reusable UI components
-│ ├── HomePageComponent/ # Home page specific components
-│ │ ├── AccommodationList.jsx
-│ │ ├── ActivityList.jsx
-│ │ ├── FlightInfoCard.jsx
-│ │ ├── TripCard.jsx
-│ │ └── TripHeader.jsx
-│ ├── BottomNav.jsx # Bottom navigation bar (mobile)
-│ ├── Button.jsx # Reusable button component
-│ ├── OptionButton.jsx # Button for selecting companion
-│ ├── Search.jsx # (legacy or alternative search)
-│ ├── SelectField.jsx # Select dropdown field
-│ ├── TextField.jsx # Input text field with icon
-│ └── TopNav.jsx # Top navigation bar (desktop)
-├── context/ # App context (theme)
-│ ├── ThemeContext.jsx
-│ └── useTheme.jsx
-├── pages/ # Main application screens
-│ ├── Home.jsx
-│ ├── Profile.jsx
-│ └── TravelPlan.jsx
+| Path                             | Description                               |
+|---------------------------------|-------------------------------------------|
+| src/                             | Root source folder                        |
+| ├── assets/                      | Static assets (images like tokyo.png)     |
+| ├── components/                  | Reusable UI components                    |
+| │ ├── HomePageComponent/         | Home page specific components             |
+| │ │ ├── AccommodationList.jsx    | Accommodation list component              |
+| │ │ ├── ActivityList.jsx         | Activity list component                   |
+| │ │ ├── FlightInfoCard.jsx       | Flight information card                   |
+| │ │ ├── TripCard.jsx             | Trip card component                       |
+| │ │ └── TripHeader.jsx           | Trip header component                     |
+| │ ├── BottomNav.jsx              | Bottom navigation bar (mobile)            |
+| │ ├── Button.jsx                 | Reusable button component                 |
+| │ ├── OptionButton.jsx           | Button for selecting companion            |
+| │ ├── Search.jsx                 | (legacy or alternative search)            |
+| │ ├── SelectField.jsx            | Select dropdown field                     |
+| │ ├── TextField.jsx              | Input text field with icon                |
+| │ └── TopNav.jsx                 | Top navigation bar (desktop)              |
+| ├── context/                     | App context (theme)                       |
+| │ ├── ThemeContext.jsx           | Theme context provider                    |
+| │ └── useTheme.jsx               | Custom hook for theme                     |
+| ├── pages/                       | Main application screens                  |
+| │ ├── Home.jsx                   | Home page                                 |
+| │ ├── Profile.jsx                | Profile page                              |
+| │ └── TravelPlan.jsx             | Travel plan page                          |
 
 ---
 
