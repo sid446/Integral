@@ -11,7 +11,7 @@ export default function PlaceSearch() {
   const [error, setError] = useState('');
   const [recentSearches, setRecentSearches] = useState([]);
   const { theme } = useTheme();
-  const [activeTab, setActiveTab] = useState('home'); 
+  const [activeTab, setActiveTab] = useState('search'); // Default active tab
   
   
   const isDark = theme === 'dark';

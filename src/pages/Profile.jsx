@@ -4,10 +4,11 @@ import TopNav from '../components/TopNav';
 import BottomNav from '../components/BottomNav';
 import { User, Edit, MapPin, Star, Bookmark, Clock, LogOut, Settings, Camera } from 'lucide-react';
 
-export default function Profile({ activeTab }) {
+export default function Profile() {
   const { theme ,toggleTheme} = useTheme();
   const isDark = theme === 'dark';
   const [activeSection, setActiveSection] = useState('saved');
+    const [activeTab, setActiveTab] = useState('profile');
   
   // Mock data for profile
   const [profile, setProfile] = useState({
@@ -463,7 +464,8 @@ export default function Profile({ activeTab }) {
         )}
       </main>
       
-      <BottomNav activeTab={activeTab} />
+      <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />
+
     </div>
   );
 }
